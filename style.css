@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Klavika";
+    src: url("./assets/klavika-bold.otf");
+}
+
+body {
+    /* margin:0; */
+    font-family: "Helvetica", "Arial", sans-serif;
+    background-color: #f0f2f5;
+}
+h1,h2,p{
+    text-align:center;
+}
+
+.logo {
+    font-family: "Klavika";
+    color:#1877f2;
+    font-size: 3em;
+    text-align: center;
+    margin-top:10%;
+}
+
+.form {
+   display:flex;
+   justify-content:center;
+   margin:2em;
+   border-radius:5px;
+}
+
+input, select{
+    padding:18px;
+    margin:5px;
+}
+
+select{
+    width:145px;
+}
+
+#ma, #mc{
+    width:200px;
+}
+#email, #pw{
+    width:438px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#btn{
+    padding:18px 40px;
+    display:inline-block;
+    margin:15px;
+    border-radius: 10px;
+    background-color:rgb(9,123,23) ;
+color:white;
+}
+
+#btn:hover{
+    background-color:rgb(9,123,23) ;
+}
+
+label{
+    font-size:14px;
+}
+
+fieldset{
+    background-color:white;
+    text-align:center;
+    margin: 2em;
+    border-radius:5px;
+}
+
+#phone, #pass{
+    width:450px;
+}
+
+.radio{
+display:inline;
+border:1px gray solid;
+border-radius:2px;
+padding:6px;
+margin:18px;
+}
+
